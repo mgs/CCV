@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/ccv/!svn/ver/9/Community%20Core%20Vision/Linux/addons/ofxFiducialFinder/src/libfidtrack
+END
+fidtrackX.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/ccv/!svn/ver/9/Community%20Core%20Vision/Linux/addons/ofxFiducialFinder/src/libfidtrack/fidtrackX.cpp
+END
+treeidmap.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/ccv/!svn/ver/9/Community%20Core%20Vision/Linux/addons/ofxFiducialFinder/src/libfidtrack/treeidmap.h
+END
+segment.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/ccv/!svn/ver/9/Community%20Core%20Vision/Linux/addons/ofxFiducialFinder/src/libfidtrack/segment.cpp
+END
+fidtrackX.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/ccv/!svn/ver/9/Community%20Core%20Vision/Linux/addons/ofxFiducialFinder/src/libfidtrack/fidtrackX.h
+END
+floatpoint.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/ccv/!svn/ver/9/Community%20Core%20Vision/Linux/addons/ofxFiducialFinder/src/libfidtrack/floatpoint.h
+END
+segment.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/ccv/!svn/ver/9/Community%20Core%20Vision/Linux/addons/ofxFiducialFinder/src/libfidtrack/segment.h
+END
+treeidmap.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/ccv/!svn/ver/9/Community%20Core%20Vision/Linux/addons/ofxFiducialFinder/src/libfidtrack/treeidmap.cpp
+END
+default_trees.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/ccv/!svn/ver/9/Community%20Core%20Vision/Linux/addons/ofxFiducialFinder/src/libfidtrack/default_trees.h
+END

@@ -1,0 +1,4 @@
+ofxXmlSettings
+ofxOsc
+ofxNetwork
+ofxOpenCv
