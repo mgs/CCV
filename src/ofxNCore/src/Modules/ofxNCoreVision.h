@@ -103,15 +103,15 @@ class ofxNCoreVision : public ofxGuiListener
 public:
 	ofxNCoreVision(bool debug)
 	{
-		ofAddListener(ofEvents.mousePressed, this, &ofxNCoreVision::_mousePressed);
-		ofAddListener(ofEvents.mouseDragged, this, &ofxNCoreVision::_mouseDragged);
-		ofAddListener(ofEvents.mouseReleased, this, &ofxNCoreVision::_mouseReleased);
-		ofAddListener(ofEvents.keyPressed, this, &ofxNCoreVision::_keyPressed);
-		ofAddListener(ofEvents.keyReleased, this, &ofxNCoreVision::_keyReleased);
-		ofAddListener(ofEvents.setup, this, &ofxNCoreVision::_setup);
-		ofAddListener(ofEvents.update, this, &ofxNCoreVision::_update);
-		ofAddListener(ofEvents.draw, this, &ofxNCoreVision::_draw);
-		ofAddListener(ofEvents.exit, this, &ofxNCoreVision::_exit);
+		ofAddListener(ofEvents().mousePressed, this, &ofxNCoreVision::_mousePressed);
+		ofAddListener(ofEvents().mouseDragged, this, &ofxNCoreVision::_mouseDragged);
+		ofAddListener(ofEvents().mouseReleased, this, &ofxNCoreVision::_mouseReleased);
+		ofAddListener(ofEvents().keyPressed, this, &ofxNCoreVision::_keyPressed);
+		ofAddListener(ofEvents().keyReleased, this, &ofxNCoreVision::_keyReleased);
+		ofAddListener(ofEvents().setup, this, &ofxNCoreVision::_setup);
+		ofAddListener(ofEvents().update, this, &ofxNCoreVision::_update);
+		ofAddListener(ofEvents().draw, this, &ofxNCoreVision::_draw);
+		ofAddListener(ofEvents().exit, this, &ofxNCoreVision::_exit);
 
 		#ifdef TARGET_WIN32
             PS3  = NULL;

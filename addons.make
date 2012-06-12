@@ -1,4 +1,3 @@
-ofxXmlSettings
-ofxOsc
 ofxNetwork
 ofxOpenCv
+ofxOsc
