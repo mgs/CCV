@@ -6,3 +6,6 @@ bin/.DS_Store
 bin/data/.DS_Store
 
 *.app
+CCV.xcodeproj/
+openFrameworks-Info.plist
+Project.xcconfig
