@@ -480,6 +480,16 @@ std::map<int, Blob> BlobTracker::getTrackedObjects()
 	return calibratedObjects;
 }
 
+std::map<int, Blob>* BlobTracker::getPtrTrackedBlobs()
+{
+    return &calibratedBlobs;
+}
+
+std::map<int, Blob>* BlobTracker::getPtrTrackedObjects()
+{
+	return &calibratedObjects;
+}
+
 /*************************************************************************
 * Finds the blob in 'newBlobs' that is closest to the trackedBlob with index
 * 'ind' according to the KNN algorithm and returns the index of the winner

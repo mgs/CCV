@@ -8,7 +8,7 @@
     <!--// CAMERA SETTINGS // -->
     <CAMERA_0>
         <USECAMERA>1</USECAMERA>
-        <DEVICE>1</DEVICE>
+        <DEVICE>3</DEVICE>
         <WIDTH>320</WIDTH>
         <HEIGHT>240</HEIGHT>
         <FRAMERATE>30</FRAMERATE>

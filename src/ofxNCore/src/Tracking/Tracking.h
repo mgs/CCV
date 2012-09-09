@@ -37,6 +37,8 @@ public:
 	int MOVEMENT_FILTERING;
 	std::map<int, Blob> getTrackedBlobs();
 	std::map<int, Blob> getTrackedObjects();
+    std::map<int, Blob> * getPtrTrackedBlobs();
+	std::map<int, Blob> * getPtrTrackedObjects();
 
 private:
 	int trackKnn(ContourFinder *newBlobs, Blob *track, int k, double thresh);

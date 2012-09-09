@@ -483,7 +483,8 @@ void ofxNCoreVision::_update(ofEventArgs &e)
 		{
 			//printf("sending data osc : %d TCP : %d binary : %d\n", myTUIO.bOSCMode, myTUIO.bTCPMode, myTUIO.bBinaryMode);
 			myTUIO.setMode(contourFinder.bTrackFingers , contourFinder.bTrackObjects, contourFinder.bTrackFiducials);
-			myTUIO.sendTUIO(&getBlobs(),&getObjects(),&fidfinder.fiducialsList);
+//			myTUIO.sendTUIO(&getBlobs(),&getObjects(),&fidfinder.fiducialsList);
+            myTUIO.sendTUIO(tracker.getPtrTrackedBlobs(), tracker.getPtrTrackedObjects(), &fidfinder.fiducialsList);
 		}
 	}
 }

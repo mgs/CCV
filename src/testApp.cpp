@@ -5,6 +5,7 @@
 void testApp::setup()
 {
 	ccv = new ofxNCoreVision(debug);
+    ofSetDataPathRoot("data/");
 }
 
 //--------------------------------------------------------------
